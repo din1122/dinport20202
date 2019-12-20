@@ -1,0 +1,141 @@
+.main {
+    --background: rgba(11, 12, 16, 1);
+    --background2: rgba(32, 40, 51, 1);
+    --background2: #191F27;
+
+    --border: #202833;
+    --border2: #000;
+}
+
+html {
+    font-family: 'Montserrat',
+        sans-serif !important;
+}
+
+.contact-form {
+    border: 2px solid #838383;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nav-container-fixed {
+    width: 250px;
+    background: #191f27;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 2px #202833;
+    box-shadow: 0px 0px 15px 0px #0000007a;
+    z-index: 15;
+    position: fixed;
+    transition: all 0.1;
+}
+
+.nav-container {
+    position: fixed;
+    transition: all 0.1;
+}
+
+.uiux-logo {
+    width: 250px;
+}
+
+.project-img {
+    width: 100%;
+    box-shadow: 1px 2px 15px 2px #0000001a;
+}
+
+.logo-img-box {
+    box-shadow: 0px 4px 18px 1px #00000012;
+}
+
+.section2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.section3 {
+    height: 100vh;
+
+}
+
+.section4 {
+    height: 100vh;
+    background: linear-gradient(144deg, rgba(229, 229, 229, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.section6 {
+    height: 100vh;
+    background: #fff;
+}
+
+#two {
+    background: #191F27
+}
+
+.s3-caption-text {
+    font-family: 'Playfair Display',
+        serif;
+    color: #e0752b;
+    font-size: 20px;
+}
+
+.s4-main-title {
+    color: black;
+    border-left: 6px solid black;
+    padding-left: 10px;
+    text-decoration: none;
+    background: white;
+    font-weight: 100;
+}
+
+.ui-text {
+    float: right;
+    color: #44556d;
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.s3-left-box {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background: #191f27;
+    color: white;
+    height: 600px;
+    max-height: 600px;
+    transform: translatey(-440px);
+
+}
+
+.left-title {
+    margin-top: 18vh;
+}
+
+#one {
+    background: -moz-linear-gradient(to top, #0B0C10 0%, #202833 99%);
+    /* FF3.6-15 */
+    background: -webki linear-gradient(to top, #0B0C10 0%, #202833 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, #0B0C10 0%, #202833 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+.section5 {
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-title {
+        font-size: 4em;
+    }
+}
