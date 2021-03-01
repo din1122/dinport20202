@@ -15,7 +15,7 @@
     "intersection-observer": "^0.5.1",
     "nodemailer": "^5.0.0",
     "oimo": "^1.0.9",
-    "three": "^0.99.0",
+    "three": "^0.125.0",
     "vue": "^2.5.17",
     "vue-displacement-slideshow": "^1.0.0",
     "vue-router": "^3.0.1",
